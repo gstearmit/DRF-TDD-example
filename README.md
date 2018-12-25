@@ -29,10 +29,12 @@ An example Django REST framework project for test driven development.
 * **/api/todos/{todo-id}/** (Todo retrieve, update and destroy endpoint)
 
 ### Install 
-
+    python -m venv  todoapp
+    source todoapp/bin/activate
     pip install -r requirements.txt
 
 ### Usage
-
+    
+    $ cd todoapp/
     python manage.py test
 
